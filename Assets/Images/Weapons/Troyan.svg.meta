@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d77b657c71e23b848b44ea86b82ae17a
+guid: f434dff029cd15a49b6de3bdd2105fa0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -23,7 +23,7 @@ ScriptedImporter:
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
-  maxCordDeviationEnabled: 1
+  maxCordDeviationEnabled: 0
   maxCordDeviation: 1
   maxTangentAngleEnabled: 0
   maxTangentAngle: 5
@@ -50,6 +50,6 @@ ScriptedImporter:
         y: 0
         width: 0
         height: 0
-      spriteID: 6a872a8ceb731724ebb9674e392abbb1
+      spriteID: 78383e419cec16b4daa5eb0cadb92cc6
       internalID: 0
     PhysicsOutlines: []
