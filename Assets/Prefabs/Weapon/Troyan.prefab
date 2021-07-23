@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: _damage
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3869328173423238196, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: _typeOfCyberattack
+      value: Troyan
+      objectReference: {fileID: 0}
     - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -66,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 91e8e2271a84f754794fb9926764acb5, type: 3}
+      objectReference: {fileID: 3286163911610860551, guid: f434dff029cd15a49b6de3bdd2105fa0, type: 3}
     - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1

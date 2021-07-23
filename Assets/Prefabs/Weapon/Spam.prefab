@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: _damage
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3869328173423238196, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: _typeOfCyberattack
+      value: Spam
+      objectReference: {fileID: 0}
     - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: m_FlipX
       value: 1
