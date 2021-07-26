@@ -93,6 +93,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _vulnerableTo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _vulnerableTo.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _vulnerableTo.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _vulnerableTo.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 134455906208690544, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_Name
       value: Shield Variant 1

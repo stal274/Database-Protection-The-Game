@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3079744270393939745}
   - component: {fileID: -4957597516184516632}
   - component: {fileID: 71089052233085373}
-  - component: {fileID: 3015724313777728053}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -96,24 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d9a604e3b5e0414699d8958404748ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _armor: 0
-  _increasedCoefficient: 0
+  _armor: 2
   _vulnerableTo: []
-  _reducedCoefficient: 0
   _protectedFrom: []
---- !u!70 &3015724313777728053
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134455906208690544}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 5.12, y: 5.12}
-  m_Direction: 0
+  _whoShootsMe: {fileID: 117831684609261574, guid: fd0d2d4982bf6d64c806703e2c190a64, type: 3}
