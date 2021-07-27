@@ -6,11 +6,18 @@ using UnityEngine;
 public class Shield : MonoBehaviour
 {
     [Header("Настройка щита")]
-    [SerializeField] private int _armor;
-    [SerializeField] private double _increasedCoefficient;
-    [SerializeField] private Weapon[] _vulnerableTo;
-    [SerializeField] private double _reducedCoefficient;
-    [SerializeField] private Weapon[] _protectedFrom;
+    [SerializeField]
+    private int _armor;
+    [SerializeField]
+    private double _increasedCoefficient;
+    [SerializeField]
+    private Weapon[] _vulnerableTo;
+    [SerializeField]
+    private double _reducedCoefficient;
+    [SerializeField]
+    private Weapon[] _protectedFrom;
+    
+
     private readonly Dictionary<Weapon, double> _damageCoefficient = new Dictionary<Weapon, double>();
 
     private void Start()
