@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class Shield : MonoBehaviour
 {
     [Header("Настройка щита")]
@@ -16,7 +16,7 @@ public class Shield : MonoBehaviour
     private double _reducedCoefficient;
     [SerializeField]
     private Weapon[] _protectedFrom;
-    
+ [SerializeField] private UnityEvent<int> _hit;
 
     private readonly Dictionary<Weapon, double> _damageCoefficient = new Dictionary<Weapon, double>();
 
@@ -30,6 +30,7 @@ public class Shield : MonoBehaviour
         {
             _damageCoefficient[w] = _reducedCoefficient;
         }
+
     }
 
 
@@ -40,6 +41,7 @@ public class Shield : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Destroy(other.gameObject);
+        _hit.Invoke(_armor);
     }
 
 }
