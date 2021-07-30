@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6735187401758229309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6862, y: -0.1417, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.0094535, y: 2.806578, z: 1}
   m_Children: []
   m_Father: {fileID: 7602865159447535625}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 34587324d412940a79d530020c957dc0, type: 3}
-  m_Color: {r: 0.8490566, g: 0.22828408, b: 0.22828408, a: 0.9372549}
+  m_Color: {r: 0.8509804, g: 0.54551756, b: 0.227451, a: 0.9372549}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,20 +98,32 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _protectedFrom.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: _vulnerableTo.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 117831684609261574, guid: 9b2a0e494687fc14882aa20a2bd2deb9, type: 3}
     - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: _vulnerableTo.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 117831684609261574, guid: cca9f2dd0fa62ad4087435655e57326f, type: 3}
     - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: _vulnerableTo.Array.data[2]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _protectedFrom.Array.data[0]
+      value: 
+      objectReference: {fileID: 117831684609261574, guid: 0eb6f1f1f8832a241b3ab2fa85836e3a, type: 3}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _protectedFrom.Array.data[1]
+      value: 
+      objectReference: {fileID: 117831684609261574, guid: 5fff1b7b6b3c58d46b82283c9780b339, type: 3}
     - target: {fileID: 134455906208690544, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_Name
-      value: Shield Variant 1
+      value: Antivirus
       objectReference: {fileID: 0}
     - target: {fileID: 3079744270393939745, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_RootOrder
@@ -156,6 +168,14 @@ PrefabInstance:
     - target: {fileID: 3079744270393939745, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134658227091571809, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134658227091571809, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}

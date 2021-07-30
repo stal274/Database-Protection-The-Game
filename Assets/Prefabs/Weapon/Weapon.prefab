@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47540a47dfa2734682bb34eff708dc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _typeOfCyberattack: 
   _damage: 0
   _punchSound: {fileID: 0}
   _bullet: {fileID: 0}
