@@ -156,7 +156,15 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3869328173423238196, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: _magazine
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869328173423238196, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: _punchSound
+      value: 
+      objectReference: {fileID: 7576199276273856887}
+    - target: {fileID: 3869328173423238196, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: _shootSound
       value: 
       objectReference: {fileID: 7576199276273856887}
     - target: {fileID: 3869328173423238196, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}

@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4957597516184516632, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 134455906208690544, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_Name
-      value: Shield
+      value: Cryptographic cipher
       objectReference: {fileID: 0}
     - target: {fileID: 3079744270393939745, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +58,14 @@ PrefabInstance:
     - target: {fileID: 3079744270393939745, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561217300834955901, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_Color.b
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561217300834955901, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.227451
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}

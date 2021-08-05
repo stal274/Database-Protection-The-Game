@@ -1,22 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Magazine : MonoBehaviour
 {
 
-    [SerializeField] private Bullet[] _bullets;
-    private int _bulletsCount;
-    private void Start()
+    [SerializeField] private GameObject[] _bullets;
+    [SerializeField] private int _bulletsCount;
+    public GameObject SendAPatron()
     {
-        _bulletsCount = _bullets.Length;
-    }
-    public void SendAPatron( Weapon weapon)
-    {
-        Bullet bulletToLoad = _bullets[_bulletsCount];
-        if (bulletToLoad == null) return;
-        weapon.Load(bulletToLoad);
-        _bulletsCount -= 1;
+        GameObject bulletOnTop;
+        if (_bulletsCount >= _bullets.GetUpperBound(0))
+        {
+            bulletOnTop = null;
+        }
+        else
+        {
+            bulletOnTop = _bullets[_bulletsCount];
+            _bullets[_bulletsCount]= null;
+            _bulletsCount++;
+        }
+        return bulletOnTop;
     }
 
 }
