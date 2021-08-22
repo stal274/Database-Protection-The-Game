@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 71089052233085373, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: _armor
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 134455906208690544, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_Name
       value: Cryptographic cipher
@@ -60,12 +64,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4561217300834955901, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561217300834955901, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_Color.b
-      value: 0.227451
+      value: 0.76862746
       objectReference: {fileID: 0}
     - target: {fileID: 4561217300834955901, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
       propertyPath: m_Color.g
-      value: 0.227451
+      value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561217300834955901, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a623ddc8f543adb438dea04a6bc6f0e0, type: 3}

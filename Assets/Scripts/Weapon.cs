@@ -22,8 +22,8 @@ public class Weapon : MonoBehaviour
 
     public void Shoot()
     {
-        if(_bulletInTheBarrel==null) return;
-        Instantiate(_bulletInTheBarrel, new Vector3(424.0f, 218.561f, 0.4f), _bulletInTheBarrel.transform.rotation);
+        if (_bulletInTheBarrel == null) return;
+        Instantiate(_bulletInTheBarrel, new Vector3(420.3f, 217.741455f, 0.340000004f), _bulletInTheBarrel.transform.rotation);
         _bulletInTheBarrel = null;
         _shootSound.Play();
     }

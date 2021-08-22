@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3079744270393939745}
   - component: {fileID: -4957597516184516632}
   - component: {fileID: 71089052233085373}
-  - component: {fileID: 5134658227091571809}
   - component: {fileID: -7017827003656196661}
   - component: {fileID: -549860008309267657}
+  - component: {fileID: 1369218478715662036}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -116,29 +116,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!68 &5134658227091571809
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134455906208690544}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.93, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.8593056, y: -2.6614847}
-  - {x: -0.416633, y: 0.10728133}
-  - {x: -1.0676222, y: 2.7135649}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 3.58, y: 1.23}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!199 &-7017827003656196661
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -4911,6 +4888,22 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!70 &1369218478715662036
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134455906208690544}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009735167, y: 0}
+  m_Size: {x: 1.9239825, y: 5.595007}
+  m_Direction: 0
 --- !u!1 &3571158638412960604
 GameObject:
   m_ObjectHideFlags: 0

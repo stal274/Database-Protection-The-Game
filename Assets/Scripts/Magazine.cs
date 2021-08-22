@@ -9,7 +9,7 @@ public class Magazine : MonoBehaviour
     public GameObject SendAPatron()
     {
         GameObject bulletOnTop;
-        if (_bulletsCount >= _bullets.GetUpperBound(0))
+        if (_bulletsCount > _bullets.GetUpperBound(0))
         {
             bulletOnTop = null;
         }

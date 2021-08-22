@@ -176,9 +176,21 @@ PrefabInstance:
       value: Implantation
       objectReference: {fileID: 0}
     - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
+      propertyPath: m_Size.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3286163911610860551, guid: 0362ce9b6019b7246be85d64c629b776, type: 3}
+      objectReference: {fileID: 21300000, guid: 535feff0c43f81a4298166e2605efdd3, type: 3}
     - target: {fileID: 4481449692725486597, guid: 5d160da4028f1b045904979bb71a4c0a, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
